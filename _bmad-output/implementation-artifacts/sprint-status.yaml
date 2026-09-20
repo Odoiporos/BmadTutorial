@@ -10,15 +10,15 @@
 # Retrospective: optional | done
 
 generated: 09-20-2026 17:43
-last_updated: 09-20-2026 17:43
+last_updated: 09-20-2026 17:59
 project: BmadTutorial
 project_key: NOKEY
 tracking_system: file-system
 story_location: "_bmad-output/implementation-artifacts"
 
 development_status:
-  epic-1: backlog
-  1-1-add-and-review-expenses: backlog
+  epic-1: in-progress
+  1-1-add-and-review-expenses: in-progress
   1-2-understand-spending-totals: backlog
   1-3-save-and-restore-expenses-safely: backlog
   epic-1-retrospective: optional
