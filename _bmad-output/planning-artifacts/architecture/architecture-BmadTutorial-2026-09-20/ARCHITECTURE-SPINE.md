@@ -100,7 +100,7 @@ flowchart LR
 
 | Name | Version / source |
 | --- | --- |
-| .NET SDK / target framework | 10.0.401 / net10.0 |
+| .NET SDK / target framework | 10.0.400 / net10.0 |
 | C# | 14 |
 | System.Text.Json | In-box with `Microsoft.NETCore.App` for net10.0 |
 | xUnit.net v3 package | `xunit.v3` 4.0.1 |
@@ -109,7 +109,7 @@ flowchart LR
 
 ```text
 BmadTutorial.slnx
-global.json              # SDK 10.0.401, rollForward latestPatch
+global.json              # SDK 10.0.400, rollForward latestPatch
 src/
   ExpenseTracker.Core/
     Models/          # Expense and validated value creation
@@ -149,5 +149,5 @@ The runtime is one local console process. Its only external resource is a user-s
 
 ## Verified Baseline
 
-- .NET 10 SDK `10.0.401`, target `net10.0`, and C# 14 verified 2026-09-20 against Microsoft .NET download, template, and language-version documentation.
+- .NET 10 SDK `10.0.400`, target `net10.0`, and C# 14 verified against the installed toolchain on 2026-09-20; `latestPatch` permits later patches in the same feature band.
 - xUnit.net v3 `4.0.1` verified 2026-09-20 against xUnit release documentation. Scaffold with the `xunit.v3.templates` 4.0.1 package and its `xunit3` template; do not use the SDK's ambiguous `xunit` template.

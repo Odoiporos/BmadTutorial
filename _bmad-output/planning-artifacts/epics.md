@@ -56,7 +56,7 @@ NFR6: The scope remains beginner-friendly: one domain entity, five commands, loc
 
 ### Additional Requirements
 
-- Start from the .NET 10 console and class-library templates targeting `net10.0`; pin SDK `10.0.401` in `global.json` with `latestPatch` roll-forward.
+- Start from the .NET 10 console and class-library templates targeting `net10.0`; pin SDK `10.0.400` in `global.json` with `latestPatch` roll-forward.
 - Create exactly three projects: `ExpenseTracker.Core`, `ExpenseTracker.ConsoleApp`, and `ExpenseTracker.Tests`, organized under the architecture spine's `src/` and `tests/` seed.
 - Apply ports and adapters: Core owns policy, use cases, state, result types, and port contracts; ConsoleApp owns console and JSON filesystem adapters plus composition; dependencies point inward.
 - Keep `ExpenseTracker.Core` free of project references, console I/O, filesystem I/O, and JSON types.
@@ -117,7 +117,7 @@ So that I can maintain and inspect an accurate in-memory spending record.
 
 **Acceptance Criteria:**
 
-**Given** a new checkout with .NET SDK 10.0.401 available
+**Given** a new checkout with .NET SDK 10.0.400 available
 **When** the solution is initialized
 **Then** it contains `ExpenseTracker.Core`, `ExpenseTracker.ConsoleApp`, and `ExpenseTracker.Tests` targeting `net10.0`
 **And** dependencies point inward as defined by AD-1 and the xUnit v3 test suite runs successfully.
